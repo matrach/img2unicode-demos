@@ -2,14 +2,24 @@
 Demos of capabilities of the matrach/img2unicode - terminal rendering tool.
 
 Note, that the images are optimized for Ubuntu Mono font rendered by libvte.
+Most of monospace fonts are not really properly sized, i.e. Braille glyphs width is about 1.5x the width of ASCII, and therefore GitHub's rendering is different from libvte (Gnome Terminal etc.), which forces the characters to be either single wide or double-wide (with some exceptions).
+
+Consider the following 5 Braille glyphs and 5 ascii glyphs:
+<pre font="Ubuntu Mono">
+⣯⣯⣯⣯⣯
+aaaaa
+</pre>
+
 
 # License
-All content is based on either CC0, Public Domain or `Pixabay <https://pixabay.com/service/license/>` work. The actual content in licensed under CC0.
+All content is based on either CC0, Public Domain or [Pixabay](<https://pixabay.com/service/license/>) work. The actual content in licensed under CC0.
 
 # Samples
 
-## Limited to ASCII and B&W (Optimized for Ubuntu Mono font, not GitHub's default.)
-```
+Compare the following works.
+## Limited to ASCII and B&W
+(Optimized for Ubuntu Mono font, not GitHub's default.)
+<pre font="Ubuntu Mono">
                                                                        _       
                                                                 ____y@QF       
                                                            _y@@@@@@@@@@_       
@@ -41,4 +51,15 @@ All content is based on either CC0, Public Domain or `Pixabay <https://pixabay.c
          B@@_        "N@@_                       @@[ @@                        
           3@@@_        N@@k                      "@@p/@@y_                     
            "PP"                                   """"JRRP                     
-```
+</pre>
+## B&W Unicode
+Rendered by libvte (Gnome Terminal etc.).
+Compare the rendered image (left) with original (right).
+
+<img alt="Libvte rendering" src="images/horse-rendered.png" width="43%"> <img alt="Source image" src="images/horse.png" width="43%">
+
+## 24-bit color Unicode
+The tool really shines when rendering with 24-bit colors, which is supported by most modern terminal emulators.
+Compare the rendered image (left) with original (right).
+
+<img alt="Libvte rendering" src="images/boxer-rendered.png" width="43%"> <img alt="Source image" src="images/boxer.jpg" width="43%">
