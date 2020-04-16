@@ -9,10 +9,8 @@ Consider the following 5 Braille glyphs and 5 ascii glyphs:
 ⣯⣯⣯⣯⣯
 aaaaa
 </pre>
-
-
-# License
-All content is based on either CC0, Public Domain or [Pixabay](<https://pixabay.com/service/license/>) work. The actual content in licensed under CC0.
+And compare the rendering to libvte's:
+![libvte rendering of glyphs](images/libvte-rendering.png)
 
 # Samples
 
@@ -58,8 +56,16 @@ Compare the rendered image (left) with original (right).
 
 <img alt="Libvte rendering" src="images/horse-rendered.png" width="43%"> <img alt="Source image" src="images/horse.png" width="43%">
 
+
+<img alt="Libvte rendering" src="videos/race_horse-rendered.gif" width="43%"> <img alt="Source gif" src="videos/race_horse.gif" width="43%">
+
 ## 24-bit color Unicode
 The tool really shines when rendering with 24-bit colors, which is supported by most modern terminal emulators.
-Compare the rendered image (left) with original (right).
+Compare the rendered image (top) with original (bottom).
 
-<img alt="Libvte rendering" src="images/boxer-rendered.png" width="43%"> <img alt="Source image" src="images/boxer.jpg" width="43%">
+<img alt="Libvte rendering" src="images/boxer-rendered.png" width="90%">
+<img alt="Source image" src="images/boxer.jpg" width="50%">
+
+
+# License
+All content is based on either CC0, Public Domain or [Pixabay](<https://pixabay.com/service/license/>) work. The actual content in licensed under CC0 or Pixabay License, whichever has precedence.
