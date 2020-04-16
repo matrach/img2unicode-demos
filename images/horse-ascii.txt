@@ -1,15 +1,3 @@
-# img2unicode-demos
-Demos of capabilities of the matrach/img2unicode - terminal rendering tool.
-
-Note, that the images are optimized for Ubuntu Mono font rendered by libvte.
-
-# License
-All content is based on either CC0, Public Domain or `Pixabay <https://pixabay.com/service/license/>` work. The actual content in licensed under CC0.
-
-# Samples
-
-## Limited to ASCII and B&W (Optimized for Ubuntu Mono font, not GitHub's default.)
-```
                                                                        _       
                                                                 ____y@QF       
                                                            _y@@@@@@@@@@_       
@@ -41,4 +29,3 @@ All content is based on either CC0, Public Domain or `Pixabay <https://pixabay.c
          B@@_        "N@@_                       @@[ @@                        
           3@@@_        N@@k                      "@@p/@@y_                     
            "PP"                                   """"JRRP                     
-```
