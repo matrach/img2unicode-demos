@@ -55,16 +55,17 @@ Compare the following works.
 Rendered by libvte (Gnome Terminal etc.).
 Compare the rendered image (left) with original (right).
 
-<img alt="Libvte rendering" src="images/horse-rendered.png" width="43%"> <img alt="Source image" src="images/horse.png" width="43%">
+<img alt="Libvte rendering" src="images/gamma/horse.png" width="43%"> <img alt="Source image" src="images/horse.png" width="43%">
 
 
 <img alt="Libvte rendering" src="videos/race_horse-rendered.gif" width="43%"> <img alt="Source gif" src="videos/race_horse.gif" width="43%">
 
 ## 24-bit color Unicode
 The tool really shines when rendering with 24-bit colors, which is supported by most modern terminal emulators.
-Compare the rendered image (top) with original (bottom).
+Compare the rendered image of Gamma optimizer (top), Dual (block) optimizer (middle), with original (bottom).
 
-<img alt="Libvte rendering" src="images/boxer-rendered.png" width="90%">
+<img alt="Libvte rendering" src="images/gamma/boxer.png" width="90%">
+<img alt="Libvte rendering" src="images/dual/boxer.png" width="90%">
 <img alt="Source image" src="images/boxer.jpg" width="50%">
 
 You can also watch converted Big Buck Bunny (compare with [the original movie](https://www.youtube.com/watch?v=aqz-KE-bpKQ)):
